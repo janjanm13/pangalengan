@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.header-home {
+    background: url('pemandangan.png');
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+.destination-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.nav-box {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.nav-item {
+    width: 200px;
+    height: 150px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10px;
+    font-size: 1.2em;
+    font-weight: bold;
+    transition: transform 0.3s;
+}
+
+.nav-item:hover {
+    transform: scale(1.05);
+}
+
+/* Background khusus untuk setiap kotak navbar */
+.situ-cileunca {
+    background: url('nimo.jpeg') center/ cover no-repeat;
+    background-size: cover;
+}
+
+.kebun-teh-malabar {
+    background: url('caritaalam.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+.penangkaran-rusa {
+    background: url('tj.jpeg') no-repeat center center;
+    background-size: cover;
+}
+
+.curug-penganten {
+    background: url('curug.jpeg') no-repeat center center;
+    background-size: cover;
+}
+
+/* Konten utama */
+section {
+    padding: 20px;
+    text-align: center;
+}
+
+section h2 {
+    color: #333;
+}
+
+section p {
+    color: #555;
+}
